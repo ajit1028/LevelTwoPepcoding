@@ -10,7 +10,7 @@ public class DynamicStack extends Stack {
     @Override
     public void push(int data) throws Exception {
         if (super.size() == super.capacity()) {
-            int[] temp = new int[super.size() - 1];
+            int[] temp = new int[super.size()];
             int idx = super.size() - 1;
             while (super.size() != 0) {
                 temp[idx--] = super.pop();
