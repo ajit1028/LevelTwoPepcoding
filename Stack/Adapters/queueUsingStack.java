@@ -1,5 +1,8 @@
 import java.util.LinkedList;
 
+//Leetcode 232 
+//in this question push in o(1) and pop o(1).
+//no follow up question is do push in o(n) and pop in o(1).
 public class queueUsingStack {
 
     LinkedList<Integer> st = new LinkedList<>();
